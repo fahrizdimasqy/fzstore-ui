@@ -23,11 +23,11 @@ export default function Food() {
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={6} md={4}>
-            <Item>
+            <Card>
               <CardMedia
                 component="img"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image="https://img-global.cpcdn.com/recipes/d1848c61417e18b6/1200x630cq70/photo.jpg"
                 alt="green iguana"
               />
               <CardContent>
@@ -43,14 +43,14 @@ export default function Food() {
                 <Button size="small">Share</Button>
                 <Button size="small">Learn More</Button>
               </CardActions>
-            </Item>
+            </Card>
           </Grid>
           <Grid item xs={6} md={4}>
-            <Item>
+            <Card>
               <CardMedia
                 component="img"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image="https://img-global.cpcdn.com/recipes/d1848c61417e18b6/1200x630cq70/photo.jpg"
                 alt="green iguana"
               />
               <CardContent>
@@ -66,14 +66,14 @@ export default function Food() {
                 <Button size="small">Share</Button>
                 <Button size="small">Learn More</Button>
               </CardActions>
-            </Item>
+            </Card>
           </Grid>
           <Grid item xs={6} md={4}>
-            <Item>
+            <Card>
               <CardMedia
                 component="img"
                 height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                image="https://img-global.cpcdn.com/recipes/d1848c61417e18b6/1200x630cq70/photo.jpg"
                 alt="green iguana"
               />
               <CardContent>
@@ -89,7 +89,7 @@ export default function Food() {
                 <Button size="small">Share</Button>
                 <Button size="small">Learn More</Button>
               </CardActions>
-            </Item>
+            </Card>
           </Grid>
         </Grid>
       </Box>
