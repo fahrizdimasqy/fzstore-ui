@@ -9,6 +9,8 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Paper from '@mui/material/Paper'
 import Grid from '@mui/material/Grid'
+import { green } from '@mui/material/colors'
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -31,17 +33,25 @@ export default function Food() {
                 alt="green iguana"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Burger
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                <Typography
+                  variant="body2"
+                  color="green"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Rp. 15.000
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                {/* <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button> */}
               </CardActions>
             </Card>
           </Grid>
@@ -54,17 +64,25 @@ export default function Food() {
                 alt="green iguana"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Burger
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                <Typography
+                  variant="body2"
+                  color="green"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Rp. 15.000
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                {/* <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button> */}
               </CardActions>
             </Card>
           </Grid>
@@ -77,17 +95,25 @@ export default function Food() {
                 alt="green iguana"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Lizard
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Burger
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                <Typography
+                  variant="body2"
+                  color="green"
+                  sx={{ textAlign: 'center' }}
+                >
+                  Rp. 15.000
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                {/* <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button> */}
               </CardActions>
             </Card>
           </Grid>

@@ -12,6 +12,11 @@
   pointer-events: none;
 }
 
+/* .css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #2196f3 !important;
+  color: white;
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

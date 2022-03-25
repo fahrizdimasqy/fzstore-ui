@@ -22,7 +22,7 @@ function Register() {
   //   HandlerChange
   const handlerChange = (field, e) => {
     setError('')
-    const value = e.target.value
+    const value = e.target
     if (value.length < 6) {
       setError({ ...error, [field]: `${field} minimal 6 karakter` })
     } else {
@@ -52,14 +52,16 @@ function Register() {
           label="Nama"
           id="fullWidth"
           name="name"
+          value={form.name}
         />
         <TextField
-          onChange={handlerChange('username')}
+          onChange={handlerChange}
           margin="normal"
           fullWidth
           label="Username"
           id="fullWidth"
           name="username"
+          value={form.username}
         />
         <TextField
           onChange={handlerChange}
@@ -68,6 +70,7 @@ function Register() {
           label="Password"
           id="fullWidth"
           name="password"
+          value={form.password}
         />
         <Button type="submit" variant="contained" color="success">
           Masuk{' '}
